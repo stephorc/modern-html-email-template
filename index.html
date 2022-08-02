@@ -21,6 +21,7 @@
       img {
         padding: 0;
       }
+
       .wrapper {
         width: 100%;
         table-layout: fixed;
@@ -36,6 +37,7 @@
         font-family: sans-serif;
         color: #171a1b;
       }
+
       .two-columns {
         text-align: center;
         font-size: 0;
@@ -46,6 +48,27 @@
         display: inline-block;
         vertical-align: top;
         text-align: center;
+      }
+
+      .three-columns {
+        text-align: center;
+        font-size: 0;
+        padding: 15px 0 25px;
+      }
+      .three-columns .column {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+      }
+      .three-columns .padding {
+        padding: 15px;
+      }
+      .three-columns .content {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 5px;
       }
     </style>
   </head>
@@ -105,6 +128,89 @@
             <a href="#">
               <img src="images/banner.jpg" alt="A Modern Design Agency" title="Get Started" width="600" style="max-width: 100%;">
             </a>
+          </td>
+        </tr>
+        <!-- Features Section -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="three-columns">
+                  <!-- Ecommerce Feature -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#">
+                                <img src="images/home.png" alt="Ecommerce" title="Ecommerce" width="130" style="max-width: 130px;">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold; font-size: 17px;">Ecommerce</p>
+                              <p>
+                                We offer top quality Customer Care Consultants to handle your business' chat support needs.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- Web Design Feature -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#">
+                                <img src="images/settings.png" alt="Web Design" title="Web Design" width="130" style="max-width: 130px;">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold; font-size: 17px;">Web Design</p>
+                              <p>
+                                We provide modern, lightweight design solutions for all things web, including marketing emails and landing pages.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- HTML Email Feature -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#">
+                                <img src="images/email.png" alt="HTML Email" title="HTML Email" width="130" style="max-width: 130px;">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold; font-size: 17px;">HTML Email</p>
+                              <p>
+                                Allow our marketing development experts to craft your business' perfect, custom newletter.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
       </table>
