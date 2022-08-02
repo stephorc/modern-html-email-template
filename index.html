@@ -21,11 +21,93 @@
       img {
         padding: 0;
       }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #cccccc;
+        padding-bottom: 60px;
+      }
+      .main {
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: sans-serif;
+        color: #171a1b;
+      }
+      .two-columns {
+        text-align: center;
+        font-size: 0;
+      }
+      .two-columns .column {
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <center class="wrapper">
-      <table class="main" width="100%"></table>
+      <table class="main" width="100%">
+        <!-- Top Border -->
+        <tr>
+          <td height="8" style="background-color: #171a1b;"></td>
+        </tr>
+        <!-- Logo Section -->
+        <tr>
+          <td style="padding: 14px 0 4px;">
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <!-- Logo -->
+                  <table class="column">
+                    <tr>
+                      <td style="padding: 0 62px 10px;">
+                        <a href="https://github.com/stephorc/modern-html-email-template">
+                          <img src="images/modern.jpg" alt="Modern" title="Modern" width="180">
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- Social Icons -->
+                  <table class="column">
+                    <tr>
+                      <td style="padding: 10px 72px;">
+                        <a href="#">
+                          <img src="images/black-facebook.png" alt="Fackbook" title="Fackbook" width="30">
+                        </a>
+                        <a href="#">
+                          <img src="images/black-twitter.png" alt="Twitter" title="Twitter" width="30">
+                        </a>
+                        <a href="#">
+                          <img src="images/black-youtube.png" alt="YouTube" title="YouTube" width="30">
+                        </a>
+                        <a href="#">
+                          <img src="images/black-linkedin.png" alt="LinkedIn" title="LinkedIn" width="30">
+                        </a>
+                        <a href="#">
+                          <img src="images/black-instagram.png" alt="Instagram" title="Instagram" width="30">
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Banner Image -->
+        <tr>
+          <td>
+            <a href="#">
+              <img src="images/banner.jpg" alt="A Modern Design Agency" title="Get Started" width="600" style="max-width: 100%;">
+            </a>
+          </td>
+        </tr>
+      </table>
     </center>
   </body>
 </html>
