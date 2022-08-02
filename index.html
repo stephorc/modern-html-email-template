@@ -70,6 +70,35 @@
         line-height: 20px;
         padding: 0 5px;
       }
+
+      .two-columns.last {
+        padding: 15px 0;
+      }
+      .two-columns.last .padding {
+        padding: 20px;
+      }
+      .two-columns.last .content {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+      }
+      .button {
+        background-color: #ffffff;
+        border-radius: 5px;
+        color: #171a1b;
+        font-weight: bold;
+        padding: 12px 20px;
+        text-decoration: none;
+      }
+
+      .button-dark {
+        background-color: #171a1b;
+        border-radius: 5px;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 12px 20px;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -79,7 +108,7 @@
         <tr>
           <td height="8" style="background-color: #171a1b;"></td>
         </tr>
-        <!-- Logo Section -->
+        <!-- Logo/Header Section -->
         <tr>
           <td style="padding: 14px 0 4px;">
             <table width="100%">
@@ -130,7 +159,7 @@
             </a>
           </td>
         </tr>
-        <!-- Features Section -->
+        <!-- Feature Section -->
         <tr>
           <td>
             <table width="100%">
@@ -174,7 +203,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <p style="font-weight: bold; font-size: 17px;">Web Design</p>
+                              <p style="font-weight: bold;font-size: 17px;">Web Design</p>
                               <p>
                                 We provide modern, lightweight design solutions for all things web, including marketing emails and landing pages.
                               </p>
@@ -213,6 +242,70 @@
             </table>
           </td>
         </tr>
+        <!-- CTA Section -->
+        <tr>
+          <td style="background-color: #171a1b;color: #ffffff;">
+            <table width="100%">
+              <tr>
+                <td class="two-columns last">
+                  <!-- Image Column -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#">
+                                <img src="images/keyboard.jpg" alt="Create Custom Designs" width="260" style="max-width: 260px;">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- Text & Button Column -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold;font-size: 18px;">Create Custom Designs</p>
+                              <p style="padding-bottom: 16px;">In our 10+ years of service, we've amassed a portfolio of over five-thousand custom client websites and email designs.</p>
+                              <a href="#" class="button">Read More</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Link To Repo Section -->
+        <tr>
+          <td style="padding: 15px 0 50px;">
+            <table width="100%">
+              <tr>
+                <td style="text-align: center;padding: 15px;">
+                  <p style="font-size: 20px;font-weight: bold;">HTML Email Template & Landing Page Examples</p>
+                  <p style="line-height: 23px;font-size: 15px;padding: 5px 0 15px;">
+                    <!-- The button below links to the Github Repository for this template.  -->
+                    Thanks for taking the time to view my work. 
+                    I work for a very small company, so learning new things is a must. 
+                    I also just liked the idea of "coding for the 90s," as someone who hates HTML Email Development once put it. 
+                    Don't tell them, but I actually think it's kind of exciting.
+                  </p>
+                  <a href="https://github.com/stephorc/modern-html-email-template" class="button-dark">View The Repo</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Footer -->
       </table>
     </center>
   </body>
