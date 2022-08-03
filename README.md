@@ -17,8 +17,8 @@
 
 ## To Test
 
-You can send yourself a test email by creating an account at putsmail dot com (below), copy-n-pasting the html into submission fields when prompted. Make sure to change out local images for links using placeholder dot com or uploaded versions via ImgBB dot com (both below, as well).
+First things first, delete the favicon link just above the title tag.
+
+Then, you can send yourself a test email by creating an account at putsmail dot com (below) and copy-n-pasting the html into submission fields (for proper inlining) when prompted.
 
 - https://putsmail.com/
-- https://imgbb.com/
-- https://placeholder.com/
