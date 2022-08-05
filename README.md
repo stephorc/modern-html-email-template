@@ -17,8 +17,6 @@
 
 ## To Test
 
-First things first, delete the favicon link just above the title tag.
-
-Then, you can send yourself a test email by creating an account at putsmail dot com (below) and copy-n-pasting the html into submission fields (for proper inlining) when prompted.
+You can send yourself a test email by creating an account at putsmail dot com (below) and copy-n-pasting the html into submission fields (for proper inlining) when prompted.
 
 - https://putsmail.com/
